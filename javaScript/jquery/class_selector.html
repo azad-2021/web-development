@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="jquery/jquery-3.6.0.js">
+    //also can use "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" for including jquery
+</script>
+
+
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+
+        $(".head").hide();                  //when button is pressed, h1 will hide using class selector
+
+    });
+});
+</script>
+
+
+</head>
+<body>
+<h1 class="head">This is heading</h1>
+<p>This is a line of text.</p>
+<button>Hide</button>
+
+</body>
+</html>
