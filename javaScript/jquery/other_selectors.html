@@ -2,7 +2,7 @@
 <html>
 <head>
 <script src="jquery/jquery-3.6.0.js">
-	//also can use "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" for including jquery
+    //also can use "https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" for including jquery
 </script>
 
 
@@ -10,8 +10,8 @@
 $(document).ready(function(){
     $("button").click(function(){
 
-    	$("p").hide();					//when button is pressed, paragraph txt will hide
-  	
+        $("this").hide();                  //when button is pressed, all lines will hide using * selector
+        
 
     });
 });
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
 </head>
 <body>
-
+<h1 class="head">This is heading</h1>
 <p>This is a line of text.</p>
 <button>Hide</button>
 
