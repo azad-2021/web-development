@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> My First Web Page </title>
+    <meta name="description" content="Page Description Here"/>
+    <meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+</head>
+
+<body>
+    <script>
+
+        var bgcolor = new Array("#B710E4", "#E4D410", "#1016E4", "#3DE50B", "#E5960B")
+        document.body.style.background = bgcolor[Math.floor(Math.random()*bgcolor.length)]
+
+        
+        /*Math.random() function returns random value between 0 and 1.
+          bgcolor.length returns length of the variable array bgcolor.
+          Math.floor() returns the nearest down value of the multiplication of length of bgcolor with random numbers.
+          nearest down means if value is 2.7 the it will return 2, not 3.
+          */
+
+    </script>
+</body>
+
+</html>

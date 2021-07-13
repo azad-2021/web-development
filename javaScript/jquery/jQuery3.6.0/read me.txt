@@ -1,0 +1,5 @@
+use
+  <script src="jquery/jquery-3.6.0.js"></script>
+for adding jquery3.6.0.js file directely
+or also can use 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
